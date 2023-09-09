@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guess the Word</title>
+        <meta name="viewport" content="width=device-width, intial-scale=1, maximum-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./script.js" defer></script>
+    </head>
+    <body onload ="loadWord()">
+    <div class="main">
+        <h2>Guess The Word</h2>
+        <div id="word"></div>
+        <button id="done" onclick="check()">Done</button>
+    </div>
+    </body>
+</html>
